@@ -4,7 +4,7 @@ print("Hello, World!")
 
 # Exercise 2: Custom Print Statement
 # Write a print statement that displays your name, e.g., "My name is Your Name
-print("My name is Your Name")
+print("My name is Rachatawit Kongpuy")
 
 # Exercise 3: Multiple Print Statements
 # Write three print statements that display:
@@ -12,7 +12,9 @@ print("My name is Your Name")
 # Line 2: Your age
 # Line 3: Your favorite hobbyๅ
 # Write your code here:
-
+print("Rachatawit")
+print("19")
+print("Sleep")
 
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):
