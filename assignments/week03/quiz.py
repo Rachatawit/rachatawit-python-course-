@@ -8,10 +8,18 @@ age = int(input("Enter age: "))
 # 60+: Senior
 
 # Your code here:
-
+if age<= 12 :
+    print("Child")
+elif age<= 19 :
+    print("Teenager")
+elif age<=59 :
+    print("Adult")
+else :
+    print("Senior")
 
 
 # Complete this ATM simulation
+
 balance = 1000
 pin = "1234"
 
@@ -25,9 +33,20 @@ if entered_pin == pin:
         print("4. Exit")
         
         choice = input("Choose option: ")
-        
-        # Complete the menu logic here
-        # Your code here:
+        if choice == "1":
+            print(f"Your Balance ={balance}")
+        elif choice == "2" :
+            withdraw = float(input("Enter Your Withdraw :"))
+            balance = balance - withdraw
+            print(f"Your Balance = {balance}")
+        elif choice == "3" :
+            deposit = float(input("Enter Your Deposit :"))
+            balance = balance + deposit
+            print(f"Your Balance = {balance}")
+        elif choice == "4" :
+            break
+        else :
+            print("Invild Choice")
         
 else:
     print("Invalid PIN")
