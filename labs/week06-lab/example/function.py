@@ -13,6 +13,7 @@ def say_hello():
     print("Hello, World!")
     print("Welcome to Python functions!")
 
+
 # Calling the function
 print("Calling say_hello():")
 say_hello()
@@ -21,7 +22,7 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
-    print("-" * 40)
+    print("-" * 30)
 
 draw_separator()
 print("This is between separators")
@@ -39,7 +40,7 @@ def greet_person(name):
     print(f"Hello, {name}! Nice to meet you.")
 
 print("Calling greet_person with different names:")
-greet_person("Alice")
+greet_person(5)
 greet_person("Bob")
 greet_person("Charlie")
 print()
@@ -65,8 +66,8 @@ def calculate_rectangle_area(length, width):
     print()
 
 print("Calculating rectangle areas:")
-calculate_rectangle_area(5, 3)
-calculate_rectangle_area(10, 7)
+calculate_rectangle_area(9, 3)
+calculate_rectangle_area(10, 5)
 
 # =============================================================================
 # PART 3: FUNCTIONS WITH RETURN VALUES
@@ -116,6 +117,12 @@ print("Using return values in expressions:")
 result = multiply(4, 5) + square(3)
 print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 print()
+
+# ผลรัน : 
+"""
+Using return values in expresstions
+multiply(4,5) + square(3) = 20 + 9 = 29
+"""
 
 # =============================================================================
 # PART 4: DEFAULT PARAMETERS
