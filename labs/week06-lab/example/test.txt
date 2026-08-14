@@ -1,0 +1,51 @@
+ผลรัน
+#part2
+example1
+Calling greet_person with different names:
+Hello, 5! Nice to meet you.
+Hello, Bob! Nice to meet you.
+Hello, Charlie! Nice to meet you.
+
+example2
+Calling introduce_person:
+Hi! My name is Diana.
+I am 25 years old.
+I live in New York.
+
+Hi! My name is Eve.
+I am 30 years old.
+I live in Los Angeles.
+
+example3
+Calculating rectangle areas:
+Rectangle with length 9 and width 3
+Area = 9 x 3 = 27
+
+Rectangle with length 10 and width 5
+Area = 10 x 5 = 50
+
+ #part3
+ example1
+ Using functions that return values:
+ 5 + 3 = 8
+ 10 + 7 = 17
+ Sum of both results: 25
+
+ example2
+ Circle calculations:
+ Circle with radius 5:
+ Area: 78.54
+ Circumference: 31.42
+
+#part4
+example1
+Using default parameterS:
+Hello, Mr./Ms. Smith!
+Hello, Dr. Johnson!
+Hello, Prof. Brown!
+
+example2
+Multiple default parameters:
+Profile: Alice, Age: 18, Country: Unknow
+Profile: Bob, Age: 25, Country: Unknow
+Profile: Charlie, Age: 30, Country: USA

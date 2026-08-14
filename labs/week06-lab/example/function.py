@@ -22,7 +22,7 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
-    print("-" * 30)
+    print("-" * 30)     # * อยู่ระหว่างstr กับ ตัวเลข จะทำซ้ำตามจำนวน
 
 draw_separator()
 print("This is between separators")
@@ -52,6 +52,7 @@ def introduce_person(name, age, city):
     print(f"I am {age} years old.")
     print(f"I live in {city}.")
     print()
+
 
 print("Calling introduce_person:")
 introduce_person("Diana", 25, "New York")
