@@ -39,9 +39,9 @@ except ValueError:
 # ===========================
 
 print("\n=== STRING INDEXING ===")
-fruit = 'banana'
+fruit = 'banana' 'apple'
 print(f"fruit = {fruit}")
-print(f"fruit[1] = {fruit[1]}")  # 'a'
+print(f"fruit[1] = {fruit[8]}")  # 'a'
 
 n = 3
 w = fruit[n - 1]  # fruit[2]
@@ -63,7 +63,7 @@ message = "hello"
 index = 0
 
 print("Method 1: Using for loop with enumerate")
-for i, char in enumerate(message):
+for i, char in enumerate(message): #งง
     print(f"message[{i}] = {char}")
 
 print("\nMethod 2: Manual indexing")
@@ -82,11 +82,11 @@ str2 = 'World!'
 
 # Concatenation
 result = str1 + str2
-print(f"str1 + str2 = {result}")
+print(f"str1 + str2 = {result}") #Hello World!
 
 # Multiplication
 repeat = str1 * 3
-print(f"str1 * 3 = {repeat}")
+print(f"str1 * 3 = {repeat}") #Hello Hello Hello
 
 # ===========================
 # 6. APPENDING STRINGS
@@ -95,9 +95,9 @@ print(f"str1 * 3 = {repeat}")
 print("\n=== APPENDING STRINGS ===")
 greeting = 'hello'
 name = input("Enter your name: ")
-greeting += name
+greeting += name #greeting = greeting + name #hello name
 greeting += ". welcome to pune"
-print(greeting)
+print(greeting)#
 
 # ===========================
 # 7. ITERATING AND COUNTING
@@ -109,7 +109,7 @@ text = 'Hello World'
 for letter in text:
     if letter == 'l':
         count += 1
-print(f"{count} letters 'l' found in '{text}'")
+print(f"{count} letters 'l' found in '{text}'") #3 letters 'l'
 
 # ===========================
 # 8. MEMBERSHIP TEST
@@ -146,7 +146,8 @@ print(f"id of str3 is {id(str3)}")  # Same ID as current str1
 
 print("\n=== ESCAPE CHARACTERS ===")
 print("New line example:")
-print("Line 1\nLine 2")
+print("Line 1\nLine 2") #Line 1
+                        #Line 2   
 
 print("Tab example:")
 print("Column1\tColumn2\tColumn3")
@@ -174,7 +175,7 @@ print("\n=== STRING FORMATTING ===")
 name = "ashish"
 age = 8
 print("Using %% formatting:")
-print("name=%s and age=%d" % (name, age))
+print("name=%s and age=%d" % (name, age)) #############################งงงงงงงงงงงงงงงงงงงงงงงงงงงงง
 print("name=%s and age=%d" % ("ankita", 6))
 
 # .format() method
@@ -214,8 +215,8 @@ print(f"Starts with 'welcome': {text.startswith('welcome')}")
 print(f"Ends with 'python': {text.endswith('python')}")
 
 # Modification methods
-print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
+print(f"Replace 'python' with 'java': {text.replace('python', 'java')}") #เปลี่ยนจากpythonเป็นjava
+words = text.split()# ['welcome' , 'to' , 'the' , 'world' , 'of' , 'java']
 print(f"Split into words: {words}")
 print(f"Join with '-': {'-'.join(words)}")
 
@@ -268,7 +269,7 @@ for comparison, result in comparisons:
 
 print("\n=== STRING SLICING ===")
 text = "python"
-print(f"Original string: {text}")
+print(f"Original string: {text}") 
 
 # Basic slicing
 print(f"text[1:5] = {text[1:5]}")  # ytho
