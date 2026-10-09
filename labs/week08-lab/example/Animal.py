@@ -45,6 +45,7 @@ class Cat(Animal):
 dog = Dog("Max", "Golden Retriever")
 cat = Cat("Whiskers", "Orange")
 
+
 dog.eat()        # Inherited method
 dog.make_sound() # Overridden method
 dog.fetch()      # Dog-specific method
